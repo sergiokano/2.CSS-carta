@@ -1,0 +1,52 @@
+h1 {
+    font-family: verdana;
+    font-size: 40px;
+  }
+
+  div.a {
+    text-align: right;
+    color: grey;
+  } 
+  p.thick {
+    font-weight: bold;
+  }
+
+  p.compress {
+    line-height: 90%;
+  }
+
+  #a {
+    quotes: "«" "»" "‹" "›";
+    font-family: 'Courier New', Courier, monospace;
+  }
+  div.b { 
+    width: 350px;
+    border: 1px solid black;
+    color:grey;
+   }
+
+  div.c {
+    text-decoration: underline;
+  }
+
+  /* alinear imagen */
+  img.a {
+    vertical-align: text-top;
+  }
+
+  /* word spacing */
+  span.espaciado { 
+    word-spacing: 1cm;
+  }
+
+/* alineado vertical - queria que saliera a la derecha pero con el align no lo he conseguido*/
+  p.vertical {
+    writing-mode: vertical-lr; 
+  }
+
+  /* word wrap */
+  div.wrap {
+    width: 750px; 
+    border: 1px solid #000000;
+    word-wrap: normal;
+  }
